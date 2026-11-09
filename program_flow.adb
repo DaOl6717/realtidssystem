@@ -16,7 +16,7 @@ procedure program_flow is
       end if;
    end fact;
 begin
-   i := 0;
+   i := 0; -- Börja från noll
 
    loop
       res :=fact (i);
